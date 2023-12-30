@@ -23,26 +23,39 @@ Make sure you have the following installed on your machine:
 
 
 Copy code
-cd your-project
+   ```bash
+
 Copy the .env.example file to .env:
 
 Copy code
 cp .env.example .env
+
+
 Generate an application key:
 
 Copy code
+   ```bash
+
 php artisan key:generate
 Install project dependencies:
 
 Copy code
+   ```bash
+
 composer install
 Run database migrations:
 
 Copy code
+
+   ```bash
+
 php artisan migrate
+
 Serve the Application
 Start the development server:
 
 Copy code
+   ```bash
+
 php artisan serve
 
