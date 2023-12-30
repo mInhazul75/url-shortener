@@ -15,6 +15,8 @@
  .env.example .env
 
 
+
+
 3. Generate an application key:
 
 Copy code
@@ -22,12 +24,20 @@ Copy code
 
 php artisan key:generate
 
-4. nstall project dependencies:
+
+
+
+4. Install project dependencies:
 
 Copy code
    ```bash
 
 composer install
+
+
+
+
+
 
 5. Run database migrations:
 
@@ -36,6 +46,9 @@ Copy code
    ```bash
 
 php artisan migrate
+
+
+
 
 6.Serve the Application
 Start the development server:
