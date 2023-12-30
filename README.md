@@ -1,17 +1,4 @@
-# Your Project Name
 
-Welcome to your Laravel project! This project is built using the Laravel framework, a web application framework with expressive, elegant syntax.
-
-## Getting Started
-
-Follow the steps below to get your project up and running.
-
-### Prerequisites
-
-Make sure you have the following installed on your machine:
-
-- PHP (>= 7.3)
-- Composer
 
 ### Installation
 
@@ -22,28 +9,27 @@ Make sure you have the following installed on your machine:
 
 
 
-Copy code
+2 .Copy the .env.example file to .env:
+
    ```bash
-
-Copy the .env.example file to .env:
-
-Copy code
-cp .env.example .env
+ .env.example .env
 
 
-Generate an application key:
+3. Generate an application key:
 
 Copy code
    ```bash
 
 php artisan key:generate
-Install project dependencies:
+
+4. nstall project dependencies:
 
 Copy code
    ```bash
 
 composer install
-Run database migrations:
+
+5. Run database migrations:
 
 Copy code
 
@@ -51,7 +37,7 @@ Copy code
 
 php artisan migrate
 
-Serve the Application
+6.Serve the Application
 Start the development server:
 
 Copy code
